@@ -60,9 +60,8 @@ module.exports = {
         link: "/book/",
       },
       {
-        text: "About Me",
+        text: "关于我",
         items: [
-          { text: "千叶字-读书阁", link: "https://www.qyezi.com/" },
           { text: "Github", link: "https://github.com/zhentaoo" },
           { text: "赞助&联系", link: "/sponsor/" },
         ],
