@@ -6,7 +6,10 @@
   },
   "scripts": {
     "mind": "cd packages/mind && npm run dev",
+    "mind-pro": "cd packages/mind && npm run build",
     "qyezi": "cd packages/qyezi && npm run dev",
-    "dist": "lerna run build"
+    "dist": "lerna run build",
+    "ci-pro": "cd packages/ci-cd && npm run prod",
+    "ci-pro-stop": "cd packages/ci-cd && npm run stop"
   }
 }
