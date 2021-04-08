@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "mind": "cd packages/mind && npm run dev",
+    "qyezi": "cd packages/qyezi && npm run dev",
+    "dist": "lerna run build"
+  }
+}
