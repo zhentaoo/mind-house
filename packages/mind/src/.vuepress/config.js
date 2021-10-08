@@ -139,6 +139,11 @@ module.exports = {
       ],
       "/cs/": [
         {
+          title: "数学",
+          collapsable: false,
+          children: ["math"],
+        },
+        {
           title: "数据结构&算法",
           collapsable: false,
           children: ["algorithm"],
